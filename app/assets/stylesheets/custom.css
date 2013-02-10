@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* * { border:#F00 thin dashed; } */
+#sidebar {
+     float:right; width:200px; 
+     background-color: hsl(120, 100%, 75%); 
+     text-align:center; 
+     padding:3px; 
+     text-color:"@gray";
+}
+a:link, a:visited, a:hover { text-color:"@gray"; }
+.rounded-corners {
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
